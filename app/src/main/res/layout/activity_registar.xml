@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Registar">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/regtitle"
+        android:text="@string/register1"
+        android:textSize="30sp"
+        android:textColor="@color/blue"
+        android:textStyle="bold|italic"/>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp">
+
+<com.google.android.material.textfield.TextInputEditText
+
+    android:id="@+id/regfullname"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/fullname"
+    android:inputType="text"
+    android:textColor="@color/black"
+    />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:passwordToggleEnabled="true"
+        app:boxCornerRadiusTopStart="8dp">
+
+  <com.google.android.material.textfield.TextInputEditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/username1"
+      android:id="@+id/Regusername"
+      android:inputType="text"
+      android:textColorHint="@color/black"
+
+
+      />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:passwordToggleEnabled="true"
+        app:boxCornerRadiusTopStart="8dp">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/regpassword"
+            android:hint="@string/regpassword"
+            android:textColorHint="@color/black"
+            android:inputType="textPassword"
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:passwordToggleEnabled="true"
+        app:boxCornerRadiusTopStart="8dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:id="@+id/regconfirmpassword"
+            android:hint="@string/confirmpassword1"
+            android:textColorHint="@color/black"
+            android:inputType="textPassword"
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+<Button
+    android:layout_width="wrap_content"
+    android:text="@string/ok1"
+    android:id="@+id/regokbtn"
+    android:layout_marginTop="20dp"
+    android:backgroundTint="@color/blue"
+    android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/login1"
+        android:layout_marginTop="20dp"
+        android:id="@+id/linktologin"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+
+
+

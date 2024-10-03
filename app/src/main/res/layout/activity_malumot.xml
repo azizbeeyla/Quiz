@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Malumot">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Registration"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:textColor="#4B5CE9"
+    android:gravity="center"
+    android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/malumot"
+        android:id="@+id/textname"
+        android:hint="Enter your name"
+        android:textStyle="normal"
+        android:textSize="20sp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Gender"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#635AB8"/>
+
+
+
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:text="Male"
+        android:id="@+id/male"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:text="Female"
+        android:id="@+id/female"
+        android:layout_marginStart="120dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/choose_your_country"
+    android:textSize="20sp"
+    android:layout_marginTop="15dp"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:textColor="#5B55B1"
+
+
+    />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Countryspinner"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:text="Birht of Date"
+        android:textSize="25sp"
+        android:layout_marginTop="17dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/yearSpinner"
+            android:layout_weight="1"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/monthspinner"
+            android:layout_weight="1"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/daySpinner"
+            android:layout_weight="1"/>
+
+
+
+
+
+    </LinearLayout>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+android:id="@+id/okspiner"
+    android:text="OK"
+    android:layout_marginTop="16dp"
+    android:layout_gravity="center_horizontal"/>
+</LinearLayout>

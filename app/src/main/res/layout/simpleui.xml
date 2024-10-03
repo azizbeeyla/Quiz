@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Choose Gender"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:id="@+id/male"
+        android:layout_height="wrap_content"
+        android:text="Male"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:id="@+id/female"
+        android:layout_height="wrap_content"
+        android:text="Female">
+
+
+    </RadioButton>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Hobbies"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:id="@+id/chekfutbol"
+        android:layout_height="wrap_content"
+        android:text="Football"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:id="@+id/chektenis"
+        android:layout_height="wrap_content"
+        android:text="Tennis"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:id="@+id/chekpubg"
+        android:layout_height="wrap_content"
+        android:text="Pubg"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:id="@+id/chekcomputer"
+        android:layout_height="wrap_content"
+        android:text="Computer"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:id="@+id/chekswim"
+        android:layout_height="wrap_content"
+        android:text="Swimming"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/ok"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender :"
+        android:id="@+id/gender"
+        android:layout_margin="10dp"
+        android:textSize="23sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hobbies :"
+        android:id="@+id/hobbiy"
+        android:layout_margin="10dp"
+        android:textSize="23sp"/>
+</LinearLayout>

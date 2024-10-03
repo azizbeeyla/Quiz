@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".dearregister">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:background="#FF6650">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/back3" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="45dp"
+            android:fontFamily="@font/italic"
+            android:gravity="center_vertical|end"
+            android:text="DearEx"
+            android:textColor="#210056"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="370dp"
+            android:layout_height="570dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="108dp"
+            android:backgroundTint="#FCFCFC"
+            app:cornerRadius="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="107sp"
+            android:layout_marginTop="118dp"
+            android:text="Registration"
+            android:textColor="#FF6650"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="303dp"
+        android:layout_height="340dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Name"
+            android:textColor="#FF6650"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#450E83"
+            android:hint="Mister Malik" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number"
+            android:textColor="#FF6650"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF6650"
+            android:hint="01256781119" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Referal Id"
+            android:textColor="#FF6650"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF6650"
+            android:hint="01256781119" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="#FF6650"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF6650"
+            android:hint="********" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm Password"
+            android:textColor="#FF6650"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF6650"
+            android:hint="********" />
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="278dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="580dp"
+        android:backgroundTint="#FF6650"
+        android:text="Sign Up "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="645dp"
+        android:text="Already have an account? Sign in "
+        android:textColor="#FF6650"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</FrameLayout>

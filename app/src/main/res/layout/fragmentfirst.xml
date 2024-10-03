@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#7AB2EF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".First_fragment">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:hint="Send"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/textfragment"
+        android:layout_marginHorizontal="15dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Send"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsent"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

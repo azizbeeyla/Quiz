@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Application"
+        tools:targetApi="31">
+        <activity
+            android:name=".Viewpager2"
+            android:exported="false" />
+        <activity
+            android:name=".viktorina"
+            android:exported="false" />
+        <activity
+            android:name=".fragment1"
+            android:exported="false" />
+        <activity
+            android:name=".ViewPagerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Secondfragment"
+            android:exported="false" />
+        <activity
+            android:name=".First_fragment"
+            android:exported="false" />
+        <activity
+            android:name=".fruitsactivity"
+            android:exported="false" />
+        <activity
+            android:name=".gridimage"
+            android:exported="false" />
+        <activity
+            android:name=".dearregister"
+            android:exported="false" />
+        <activity
+            android:name=".shared"
+            android:exported="true" />
+        <activity
+            android:name=".Registar"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".second"
+            android:exported="true" />
+        <activity
+            android:name=".Fragmentt"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Customadapter" />
+        <activity android:name=".Fruitmode" />
+    </application>
+
+</manifest>

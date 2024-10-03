@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:background="#FF6650">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/back3" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="46dp"
+            android:fontFamily="@font/italic"
+            android:gravity="center_vertical|end"
+            android:text="DearEx"
+            android:textColor="#210056"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="370dp"
+            android:layout_height="600dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="108dp"
+            android:backgroundTint="#FCFCFC"
+            app:cornerRadius="20dp" />
+
+        <ImageView
+            android:layout_width="116dp"
+            android:layout_height="116dp"
+            android:layout_marginStart="146dp"
+            android:layout_marginTop="116dp"
+            android:backgroundTint="#FF6650"
+            android:src="@drawable/dear" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="164dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="240dp"
+        android:background="#FF6650"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:text="Change Password"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="303dp"
+        android:layout_height="420dp"
+        android:backgroundTint="#FCFCFC"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:layout_marginTop="123dp"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:textSize="17sp"
+            android:layout_margin="2.5dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#E4E4E4"
+            android:text="Full Name: Mister Manik"
+            android:textColor="#FF6650"
+            android:textStyle="bold"
+            app:cornerRadius="5dp"
+           android:textAlignment="viewStart"
+            tools:ignore="RtlCompat" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#E4E4E4"
+            android:textSize="17sp"
+            android:layout_margin="2.5dp"
+            android:text="Mobile Number:01654556566"
+            android:textColor="#FF6650"
+            android:textStyle="bold"
+            app:cornerRadius="5dp"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat" />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#E4E4E4"
+            android:text="User ID:1"
+            android:textSize="17sp"
+            android:layout_margin="2.5dp"
+            android:textColor="#FF6650"
+            android:textStyle="bold"
+            app:cornerRadius="5dp"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat" />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#E4E4E4"
+            android:layout_margin="2.5dp"
+            android:textSize="17sp"
+            android:text="Invalid Click:"
+            android:textColor="#FF6650"
+            android:textStyle="bold"
+            app:cornerRadius="5dp"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#E4E4E4"
+            android:text="Referral Id:01654556566"
+            android:textColor="#FF6650"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_margin="2.5dp"
+            app:cornerRadius="5dp"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#E4E4E4"
+            android:text="Total Refer:0"
+            android:textColor="#FF6650"
+            android:textSize="17sp"
+            android:layout_margin="2.5dp"
+            android:textStyle="bold"
+            app:cornerRadius="5dp"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat" />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#E4E4E4"
+            android:text="Joining Date:"
+            android:textColor="#FF6650"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_margin="2.5dp"
+            app:cornerRadius="5dp"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#E4E4E4"
+            android:text="Balance:0"
+            android:textColor="#FF6650"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_margin="2.5dp"
+            app:cornerRadius="5dp"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat" />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#E4E4E4"
+            android:textSize="17sp"
+            android:layout_margin="2.5dp"
+            android:text="Password: ********"
+            android:textColor="#FF6650"
+            android:textStyle="bold"
+            app:cornerRadius="5dp"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat" />
+
+
+    </LinearLayout>
+</FrameLayout>
